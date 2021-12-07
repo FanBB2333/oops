@@ -1,0 +1,150 @@
+{'rouge-1': {'r': 0.46153846153846156, 'p': 0.2857142857142857, 'f': 0.3529411717474049}, 'rouge-2': {'r': 0.07692307692307693, 'p': 0.047619047619047616, 'f': 0.058823524688581694}, 'rouge-l': {'r': 0.46153846153846156, 'p': 0.2857142857142857, 'f': 0.3529411717474049}}
+1: Amanda can't find Betty's number. She called her last time they were at the park together. Hannah would rather Amanda texted Larry.
+{'rouge-1': {'r': 0.4444444444444444, 'p': 0.4444444444444444, 'f': 0.44444443944444445}, 'rouge-2': {'r': 0.25, 'p': 0.25, 'f': 0.24999999500000009}, 'rouge-l': {'r': 0.4444444444444444, 'p': 0.4444444444444444, 'f': 0.44444443944444445}}
+2: Ethan sends Toby and Marshall a photo of himself.
+{'rouge-1': {'r': 0.46153846153846156, 'p': 0.5454545454545454, 'f': 0.4999999950347222}, 'rouge-2': {'r': 0.19230769230769232, 'p': 0.23809523809523808, 'f': 0.2127659525033953}, 'rouge-l': {'r': 0.4230769230769231, 'p': 0.5, 'f': 0.45833332836805557}}
+3: It's Wharton's birthday next week. He mentioned a paper shredder once. Darlene and Walker will ask him twice if he has it.
+{'rouge-1': {'r': 0.4444444444444444, 'p': 0.6, 'f': 0.5106382929832505}, 'rouge-2': {'r': 0.2857142857142857, 'p': 0.38095238095238093, 'f': 0.3265306073469388}, 'rouge-l': {'r': 0.4444444444444444, 'p': 0.6, 'f': 0.5106382929832505}}
+4: Jesse and Melvin are going to help women and children who escape from abuse. They are going to chip in for the 3rd list.
+{'rouge-1': {'r': 0.16, 'p': 0.3076923076923077, 'f': 0.21052631128808874}, 'rouge-2': {'r': 0.10714285714285714, 'p': 0.21428571428571427, 'f': 0.14285713841269856}, 'rouge-l': {'r': 0.16, 'p': 0.3076923076923077, 'f': 0.21052631128808874}}
+5: Adele got a new dog. She called him Bones because of the plump plump dog.
+{'rouge-1': {'r': 0.2727272727272727, 'p': 0.3333333333333333, 'f': 0.2999999950500001}, 'rouge-2': {'r': 0.1, 'p': 0.1111111111111111, 'f': 0.1052631529085875}, 'rouge-l': {'r': 0.18181818181818182, 'p': 0.2222222222222222, 'f': 0.1999999950500001}}
+6: Adam's friend told Nate and Nate that Tim is gay.
+{'rouge-1': {'r': 0.42857142857142855, 'p': 0.6666666666666666, 'f': 0.5217391256710776}, 'rouge-2': {'r': 0.03333333333333333, 'p': 0.05555555555555555, 'f': 0.0416666619791672}, 'rouge-l': {'r': 0.35714285714285715, 'p': 0.5555555555555556, 'f': 0.4347826039319471}}
+7: Inez and Patrycja enjoyed their evening. They will go to a restaurant in Italy and Korea again on Wednesday.
+{'rouge-1': {'r': 0.9285714285714286, 'p': 0.5652173913043478, 'f': 0.702702697998539}, 'rouge-2': {'r': 0.5625, 'p': 0.34615384615384615, 'f': 0.42857142385487534}, 'rouge-l': {'r': 0.9285714285714286, 'p': 0.5652173913043478, 'f': 0.702702697998539}}
+8: Clare is not in town. Annette is sick. Peadar, Clare, Annette and James are going to Jesus bar. Oli went to the bar but couldn't find anyone.
+{'rouge-1': {'r': 0.35714285714285715, 'p': 0.5555555555555556, 'f': 0.4347826039319471}, 'rouge-2': {'r': 0.07692307692307693, 'p': 0.125, 'f': 0.0952380905215422}, 'rouge-l': {'r': 0.2857142857142857, 'p': 0.4444444444444444, 'f': 0.3478260821928167}}
+9: Ying has done a 10-year challenge for 10 years.
+{'rouge-1': {'r': 0.09523809523809523, 'p': 0.2222222222222222, 'f': 0.13333332913333346}, 'rouge-2': {'r': 0.047619047619047616, 'p': 0.125, 'f': 0.06896551324613578}, 'rouge-l': {'r': 0.09523809523809523, 'p': 0.2222222222222222, 'f': 0.13333332913333346}}
+10: Janet is ashamed of her vote for Donald Trump.
+{'rouge-1': {'r': 0.38095238095238093, 'p': 0.3333333333333333, 'f': 0.3555555505777778}, 'rouge-2': {'r': 0.15, 'p': 0.125, 'f': 0.13636363140495886}, 'rouge-l': {'r': 0.38095238095238093, 'p': 0.3333333333333333, 'f': 0.3555555505777778}}
+11: Joel doesn't know a good technician that fixes PC's. Pablo is on vacation this week. Marta will ask Cynthia or Elena if they know someone.
+{'rouge-1': {'r': 0.17647058823529413, 'p': 0.2727272727272727, 'f': 0.2142857095153062}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.11764705882352941, 'p': 0.18181818181818182, 'f': 0.14285713808673486}}
+12: Fatima and Jenson are both blaming each other for Alene's depression.
+{'rouge-1': {'r': 0.5476190476190477, 'p': 0.7419354838709677, 'f': 0.6301369814148997}, 'rouge-2': {'r': 0.28846153846153844, 'p': 0.45454545454545453, 'f': 0.3529411717204152}, 'rouge-l': {'r': 0.5238095238095238, 'p': 0.7096774193548387, 'f': 0.602739721140927}}
+13: Brenda and Sandra used to work in the clothes factory. Brenda lives in Stoke now, but she has 4 grandchildren. Brenda's husband Bill died 5 years ago. Brenda and Sandra will meet next Saturday at 11.
+{'rouge-1': {'r': 0.391304347826087, 'p': 0.5294117647058824, 'f': 0.4499999951125}, 'rouge-2': {'r': 0.15384615384615385, 'p': 0.19047619047619047, 'f': 0.17021276101403365}, 'rouge-l': {'r': 0.391304347826087, 'p': 0.5294117647058824, 'f': 0.4499999951125}}
+14: Maria and Kate are preparing for the conference. Tommy will have a prezi and Maria will pay $10 a month for academics.
+{'rouge-1': {'r': 0.0625, 'p': 0.05263157894736842, 'f': 0.057142852179592266}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.0625, 'p': 0.05263157894736842, 'f': 0.057142852179592266}}
+15: Freddie has just finished Mad Men. Kelly has just finished The Crown. Jim is watching I, Zombie. Bob recommends watching Grimm or Sabrina.
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.5, 'f': 0.39999999520000007}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.2777777777777778, 'p': 0.4166666666666667, 'f': 0.3333333285333334}}
+16: Tessa wants Chloe to stop texting Jim Andrews, her colleague from work.
+{'rouge-1': {'r': 0.8235294117647058, 'p': 0.5185185185185185, 'f': 0.6363636316219009}, 'rouge-2': {'r': 0.625, 'p': 0.3448275862068966, 'f': 0.44444443986172844}, 'rouge-l': {'r': 0.8235294117647058, 'p': 0.5185185185185185, 'f': 0.6363636316219009}}
+17: George, Robert, Yousuf and Paul are going to play basketball on Friday at 7 p.m. Yousuf needs to help his sister with her car. Paul will bring some beers.
+{'rouge-1': {'r': 0.5714285714285714, 'p': 0.8333333333333334, 'f': 0.677966096868716}, 'rouge-2': {'r': 0.22727272727272727, 'p': 0.37037037037037035, 'f': 0.28169013613171995}, 'rouge-l': {'r': 0.5428571428571428, 'p': 0.7916666666666666, 'f': 0.6440677917839702}}
+18: Mitch will take Bill and Sammy for the International camp in July. Rory will chip in for gas to get them there. Mitch will be leaving on Sunday, 29th.
+{'rouge-1': {'r': 0.65, 'p': 0.52, 'f': 0.5777777728395063}, 'rouge-2': {'r': 0.30434782608695654, 'p': 0.25, 'f': 0.27450979896962713}, 'rouge-l': {'r': 0.55, 'p': 0.44, 'f': 0.48888888395061736}}
+19: Ania, Kasia, Jan and Zuzia are going to the church tomorrow to praise Mary the Queen of Poland. Zuzia thinks it's inappropriate for a boy to go with them.
+{'rouge-1': {'r': 0.5555555555555556, 'p': 0.9090909090909091, 'f': 0.6896551677051131}, 'rouge-2': {'r': 0.3023255813953488, 'p': 0.52, 'f': 0.3823529365268166}, 'rouge-l': {'r': 0.4722222222222222, 'p': 0.7727272727272727, 'f': 0.5862068918430441}}
+20: Judy is going to the new club at Regents Street this weekend with Miranda and Helen. Natalie wants to go with her. Judy is going on Saturday with Miranda and Helen.
+{'rouge-1': {'r': 0.28125, 'p': 0.391304347826087, 'f': 0.32727272240661165}, 'rouge-2': {'r': 0.05405405405405406, 'p': 0.07692307692307693, 'f': 0.06349205864449521}, 'rouge-l': {'r': 0.28125, 'p': 0.391304347826087, 'f': 0.32727272240661165}}
+21: Jamie, Marlo and Alex are going to give presentations in groups. They have 2 groups to do it. Jamie wants to divide them into girls and boys.
+{'rouge-1': {'r': 0.65, 'p': 0.5909090909090909, 'f': 0.619047614058957}, 'rouge-2': {'r': 0.30434782608695654, 'p': 0.28, 'f': 0.2916666616753473}, 'rouge-l': {'r': 0.65, 'p': 0.5909090909090909, 'f': 0.619047614058957}}
+22: Hugh has a toothache and needs a checkup. Andy recommends ProDent in the centre. Wade needs to go for a checkup too. Hugh is working late today.
+{'rouge-1': {'r': 0.4864864864864865, 'p': 0.6923076923076923, 'f': 0.5714285665810028}, 'rouge-2': {'r': 0.2682926829268293, 'p': 0.3793103448275862, 'f': 0.3142857094326531}, 'rouge-l': {'r': 0.4864864864864865, 'p': 0.6923076923076923, 'f': 0.5714285665810028}}
+23: Julie has just watched a Japanese horror movie and she's scared. Paula will chip in for an Uber for Julie to come over. Rose will bring cookies for the cocoa.
+{'rouge-1': {'r': 0.30434782608695654, 'p': 0.30434782608695654, 'f': 0.30434782108695657}, 'rouge-2': {'r': 0.12, 'p': 0.1111111111111111, 'f': 0.11538461039201205}, 'rouge-l': {'r': 0.30434782608695654, 'p': 0.30434782608695654, 'f': 0.30434782108695657}}
+24: Dan, Tim, Chris and Tom are going to a party on Saturday at 8. They need to be home at 2 and ready to drive on Sunday noon.
+{'rouge-1': {'r': 0.23684210526315788, 'p': 0.32142857142857145, 'f': 0.272727267842057}, 'rouge-2': {'r': 0.045454545454545456, 'p': 0.06451612903225806, 'f': 0.053333328483556}, 'rouge-l': {'r': 0.23684210526315788, 'p': 0.32142857142857145, 'f': 0.272727267842057}}
+25: Jamie was at school today. He has a high fever and a terible cough. Helen has a perdiatrician, Tornez, who treats all kids. Helen has a doctor, Torez, who treats all kids. Half of the class is sick.
+{'rouge-1': {'r': 0.3541666666666667, 'p': 0.6296296296296297, 'f': 0.4533333287253334}, 'rouge-2': {'r': 0.11320754716981132, 'p': 0.20689655172413793, 'f': 0.14634145884295077}, 'rouge-l': {'r': 0.3541666666666667, 'p': 0.6296296296296297, 'f': 0.4533333287253334}}
+26: Stanley can't go with her because of work. She accused him of having an affair. Stanley will talk to her when she's back. Bill is working on the Lidem project.
+{'rouge-1': {'r': 0.6470588235294118, 'p': 0.55, 'f': 0.5945945896274654}, 'rouge-2': {'r': 0.28205128205128205, 'p': 0.23404255319148937, 'f': 0.2558139485316388}, 'rouge-l': {'r': 0.6176470588235294, 'p': 0.525, 'f': 0.5675675626004384}}
+27: Katie is hosting Tim on Monday evening and dropping him at the railway station next morning. Katie and Ann spent a week end together 20 years ago in Saint Fargeau. Katie will send Ann her son a text to tell him where she wants to pick him up.
+{'rouge-1': {'r': 0.47368421052631576, 'p': 0.34615384615384615, 'f': 0.39999999512098766}, 'rouge-2': {'r': 0.13043478260869565, 'p': 0.11538461538461539, 'f': 0.12244897461057913}, 'rouge-l': {'r': 0.3684210526315789, 'p': 0.2692307692307692, 'f': 0.3111111062320988}}
+28: Madeline is not happy with Jada's way of dealing with her problems. She and Martin had an argument today. They are going for a beer after that.
+{'rouge-1': {'r': 0.6296296296296297, 'p': 0.7727272727272727, 'f': 0.69387754607247}, 'rouge-2': {'r': 0.26666666666666666, 'p': 0.34782608695652173, 'f': 0.30188678754004994}, 'rouge-l': {'r': 0.5555555555555556, 'p': 0.6818181818181818, 'f': 0.6122448930112453}}
+29: Maria, Alexander, Sarah and Martha are going to IMF lecture tomorrow. Alexander will meet with Sarah after class at 17:15. Lawrence will be late.
+{'rouge-1': {'r': 0.15, 'p': 0.21428571428571427, 'f': 0.17647058339100358}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.15, 'p': 0.21428571428571427, 'f': 0.17647058339100358}}
+30: Becky is trying to win Coco over but she's not very good at it.
+{'rouge-1': {'r': 0.25, 'p': 0.7777777777777778, 'f': 0.37837837469685914}, 'rouge-2': {'r': 0.0625, 'p': 0.25, 'f': 0.0999999968000001}, 'rouge-l': {'r': 0.21428571428571427, 'p': 0.6666666666666666, 'f': 0.324324320642805}}
+31: Natalie told Tom and Jane that she is pregnant.
+{'rouge-1': {'r': 0.5, 'p': 0.3888888888888889, 'f': 0.43749999507812504}, 'rouge-2': {'r': 0.06666666666666667, 'p': 0.05, 'f': 0.05714285224489839}, 'rouge-l': {'r': 0.35714285714285715, 'p': 0.2777777777777778, 'f': 0.3124999950781251}}
+32: Gemma wants Timmy to come to Lona and Michelle's wedding. Timmy is not sure about the date but he will come.
+{'rouge-1': {'r': 0.4482758620689655, 'p': 0.5909090909090909, 'f': 0.509803916662822}, 'rouge-2': {'r': 0.2903225806451613, 'p': 0.391304347826087, 'f': 0.3333333284430728}, 'rouge-l': {'r': 0.41379310344827586, 'p': 0.5454545454545454, 'f': 0.4705882303883122}}
+33: Mr. Benson is in Peru discussing a contract with a new client. He will talk to Claudia and Mark as soon as he's gone.
+{'rouge-1': {'r': 0.3684210526315789, 'p': 0.5833333333333334, 'f': 0.45161289848074926}, 'rouge-2': {'r': 0.09523809523809523, 'p': 0.16666666666666666, 'f': 0.12121211658402223}, 'rouge-l': {'r': 0.3684210526315789, 'p': 0.5833333333333334, 'f': 0.45161289848074926}}
+34: Jasmine and Paola love Charlie Puth's new song. Paola also likes Galway Girl.
+{'rouge-1': {'r': 0.6764705882352942, 'p': 0.6764705882352942, 'f': 0.6764705832352943}, 'rouge-2': {'r': 0.39473684210526316, 'p': 0.3409090909090909, 'f': 0.36585365356335514}, 'rouge-l': {'r': 0.6764705882352942, 'p': 0.6764705882352942, 'f': 0.6764705832352943}}
+35: Rita doesn't know if the readings for the next session of Stephen's seminar are in the print shop. Arthur made the mistake of going on Monday and the staff was rude. Rita will go tomorrow morning and let Chae-yeong and Arthur know if the texts are available.
+{'rouge-1': {'r': 0.75, 'p': 0.8571428571428571, 'f': 0.7999999950222222}, 'rouge-2': {'r': 0.39473684210526316, 'p': 0.46875, 'f': 0.4285714236081633}, 'rouge-l': {'r': 0.75, 'p': 0.8571428571428571, 'f': 0.7999999950222222}}
+36: Sue wants Graham to throw her dates over for weekends in Romford. Graham has 2 more days off and wants to focus on motorways. Sue will let Graham know when Louise comes back.
+{'rouge-1': {'r': 0.39285714285714285, 'p': 0.7333333333333333, 'f': 0.511627902433748}, 'rouge-2': {'r': 0.23333333333333334, 'p': 0.4375, 'f': 0.30434782155009454}, 'rouge-l': {'r': 0.39285714285714285, 'p': 0.7333333333333333, 'f': 0.511627902433748}}
+37: Pauline and Anthony are going to Greece on August 10. They need to be back by 10.
+{'rouge-1': {'r': 0.6666666666666666, 'p': 0.46153846153846156, 'f': 0.5454545406198348}, 'rouge-2': {'r': 0.23809523809523808, 'p': 0.18518518518518517, 'f': 0.20833332841145846}, 'rouge-l': {'r': 0.6111111111111112, 'p': 0.4230769230769231, 'f': 0.4999999951652893}}
+38: Molly, Peter and Kai are going to Sweden for a week in January. It's dark and cold and it's not very nice. They will visit the Vasa Museum.
+{'rouge-1': {'r': 0.65, 'p': 0.8125, 'f': 0.7222222172839509}, 'rouge-2': {'r': 0.2916666666666667, 'p': 0.4117647058823529, 'f': 0.341463409779893}, 'rouge-l': {'r': 0.65, 'p': 0.8125, 'f': 0.7222222172839509}}
+39: Adam is going to Multisports this week. Mair will bring Xand and Adam to Multisports tomorrow at half 10.
+{'rouge-1': {'r': 0.3125, 'p': 0.8333333333333334, 'f': 0.4545454505785124}, 'rouge-2': {'r': 0.09375, 'p': 0.25, 'f': 0.13636363239669433}, 'rouge-l': {'r': 0.25, 'p': 0.6666666666666666, 'f': 0.3636363596694215}}
+40: Casper, Igor and Alexander are going to the circus instead of the university.
+{'rouge-1': {'r': 0.6086956521739131, 'p': 0.6666666666666666, 'f': 0.6363636313739671}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.375, 'f': 0.35294117148788934}, 'rouge-l': {'r': 0.5217391304347826, 'p': 0.5714285714285714, 'f': 0.5454545404648761}}
+41: Marsha, John and Gavin are going on a week on the beach. Marsha sends a photo of a hotel in Nosy Be to John and Mohammad.
+{'rouge-1': {'r': 0.4230769230769231, 'p': 0.5238095238095238, 'f': 0.4680851014395655}, 'rouge-2': {'r': 0.17857142857142858, 'p': 0.21739130434782608, 'f': 0.19607842642060758}, 'rouge-l': {'r': 0.4230769230769231, 'p': 0.5238095238095238, 'f': 0.4680851014395655}}
+42: Reeve, Booker and Slow are going to the seaside for winter break. They are going to stay at Dominicana's and book a hotel for 3/4 nites.
+{'rouge-1': {'r': 0.8947368421052632, 'p': 0.9444444444444444, 'f': 0.9189189139225714}, 'rouge-2': {'r': 0.5789473684210527, 'p': 0.6111111111111112, 'f': 0.5945945895982471}, 'rouge-l': {'r': 0.8421052631578947, 'p': 0.8888888888888888, 'f': 0.8648648598685172}}
+43: Laura, Kelsey, Sid and Oona are going to see Aquaman on Thursday at 8:10. Oona will get the tickets.
+{'rouge-1': {'r': 0.3793103448275862, 'p': 0.39285714285714285, 'f': 0.3859649072822407}, 'rouge-2': {'r': 0.0967741935483871, 'p': 0.1, 'f': 0.0983606507390489}, 'rouge-l': {'r': 0.3793103448275862, 'p': 0.39285714285714285, 'f': 0.3859649072822407}}
+44: Ana and Carlos are going to see Lola Arias' film about the Malvinas at 7 on Saturday. They will grab an uber and go to their place for dinner and drinks.
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.3333333333333333, 'f': 0.3076923027218935}, 'rouge-2': {'r': 0.09523809523809523, 'p': 0.09090909090909091, 'f': 0.09302325081665792}, 'rouge-l': {'r': 0.23809523809523808, 'p': 0.2777777777777778, 'f': 0.2564102514398423}}
+45: Jose and Amanda wish each other merry Christmas and a happy new year. Jose is excited to go to Cuba and Amanda is excited to go to Thailand.
+{'rouge-1': {'r': 0.25, 'p': 0.5, 'f': 0.33333332888888895}, 'rouge-2': {'r': 0.1111111111111111, 'p': 0.25, 'f': 0.15384614958579892}, 'rouge-l': {'r': 0.25, 'p': 0.5, 'f': 0.33333332888888895}}
+46: Lucy's uncle Sam is in hospital. He just came back from work. Yvonne is dating an Argentinian.
+{'rouge-1': {'r': 0.41304347826086957, 'p': 0.5135135135135135, 'f': 0.4578313203599942}, 'rouge-2': {'r': 0.14545454545454545, 'p': 0.1702127659574468, 'f': 0.15686274012879678}, 'rouge-l': {'r': 0.41304347826086957, 'p': 0.5135135135135135, 'f': 0.4578313203599942}}
+47: John lost his job in Germany and is coming back to London. He got a better offer from an IT company in London. Amber will be renting their flat until they return from Germany. Annie is upset and will stay with Amber until she finds a new job.
+{'rouge-1': {'r': 0.05555555555555555, 'p': 0.05263157894736842, 'f': 0.05405404905770682}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.05555555555555555, 'p': 0.05263157894736842, 'f': 0.05405404905770682}}
+48: Lynn is not going to have sex with an old wrinkled guy to pay her bills. She is going to date younger men.
+{'rouge-1': {'r': 0.2631578947368421, 'p': 0.35714285714285715, 'f': 0.30303029814508725}, 'rouge-2': {'r': 0.05263157894736842, 'p': 0.07142857142857142, 'f': 0.06060605572084521}, 'rouge-l': {'r': 0.2631578947368421, 'p': 0.35714285714285715, 'f': 0.30303029814508725}}
+49: Wendy has grown prettier since she came from Houston. Dave will hit on Wendy soon.
+{'rouge-1': {'r': 0.36363636363636365, 'p': 0.8888888888888888, 'f': 0.516129028137357}, 'rouge-2': {'r': 0.12, 'p': 0.375, 'f': 0.1818181781450873}, 'rouge-l': {'r': 0.3181818181818182, 'p': 0.7777777777777778, 'f': 0.4516128991050989}}
+50: Rita and Sally are excited about Borns' new album.
+{'rouge-1': {'r': 0.5, 'p': 0.6666666666666666, 'f': 0.5714285665306124}, 'rouge-2': {'r': 0.26666666666666666, 'p': 0.3076923076923077, 'f': 0.285714280739796}, 'rouge-l': {'r': 0.5, 'p': 0.6666666666666666, 'f': 0.5714285665306124}}
+51: Haley found a photo of Bella as a kitten. Bella is 2 weeks old.
+{'rouge-1': {'r': 0.06818181818181818, 'p': 0.375, 'f': 0.11538461278106514}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.06818181818181818, 'p': 0.375, 'f': 0.11538461278106514}}
+52: Samuel is a Telugu speaker. He is 35. He is a Thammadu.
+{'rouge-1': {'r': 0.4583333333333333, 'p': 0.55, 'f': 0.4999999950413224}, 'rouge-2': {'r': 0.20833333333333334, 'p': 0.21739130434782608, 'f': 0.2127659524490721}, 'rouge-l': {'r': 0.4583333333333333, 'p': 0.55, 'f': 0.4999999950413224}}
+53: Louis is looking for something to buy Lilly and Stephen for the wedding. Sara is on a boring meeting. Louis doesn't know what to buy Lilly and Stephen.
+{'rouge-1': {'r': 0.8214285714285714, 'p': 0.575, 'f': 0.6764705833910034}, 'rouge-2': {'r': 0.3448275862068966, 'p': 0.21739130434782608, 'f': 0.26666666192355565}, 'rouge-l': {'r': 0.75, 'p': 0.525, 'f': 0.6176470539792389}}
+54: Andrew Simmons sends a list of people who will not be able to attend the individual meetings tomorrow. Samuel Anderson has an appointment with a doctor. Katherine Jackson won't be able to come because she has a retake. The meetings will take place in Andrew Simmons's office, room 104.
+{'rouge-1': {'r': 0.7142857142857143, 'p': 0.4166666666666667, 'f': 0.5263157848199447}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.18518518518518517, 'f': 0.23809523350340142}, 'rouge-l': {'r': 0.6428571428571429, 'p': 0.375, 'f': 0.47368420587257637}}
+55: Jay convinced Ruth and Paulette to accompany him at the concert in Kenya. Joe doesn't have any cash to buy tickets. Jay will lend Joe the money later.
+{'rouge-1': {'r': 0.2702702702702703, 'p': 0.6666666666666666, 'f': 0.38461538051035504}, 'rouge-2': {'r': 0.16666666666666666, 'p': 0.4375, 'f': 0.24137930634958385}, 'rouge-l': {'r': 0.2702702702702703, 'p': 0.6666666666666666, 'f': 0.38461538051035504}}
+56: Yaz and Tania are going to a pub on Friday at 8 to get their freak on.
+{'rouge-1': {'r': 0.875, 'p': 0.8076923076923077, 'f': 0.8399999950080002}, 'rouge-2': {'r': 0.64, 'p': 0.5714285714285714, 'f': 0.6037735799216805}, 'rouge-l': {'r': 0.7916666666666666, 'p': 0.7307692307692307, 'f': 0.759999995008}}
+57: Archie is going to see "Solstafir" on 21.11. Noah would like to go but might have to stay late at work. Leo and Ethan are going to the concert.
+{'rouge-1': {'r': 0.3235294117647059, 'p': 0.4230769230769231, 'f': 0.3666666617555556}, 'rouge-2': {'r': 0.02702702702702703, 'p': 0.034482758620689655, 'f': 0.030303025376492997}, 'rouge-l': {'r': 0.2647058823529412, 'p': 0.34615384615384615, 'f': 0.2999999950888889}}
+58: Tricia is going to send Erwin to deliver the cake for Zandra's daughter's birthday tomorrow. Tricia has all decorations, starting with them in the morning after kids go to grandma.
+{'rouge-1': {'r': 0.20689655172413793, 'p': 0.6666666666666666, 'f': 0.3157894700692521}, 'rouge-2': {'r': 0.02564102564102564, 'p': 0.125, 'f': 0.042553188664554285}, 'rouge-l': {'r': 0.1724137931034483, 'p': 0.5555555555555556, 'f': 0.2631578911218837}}
+59: Michael reminds Daniel and Matt to pack their passports.
+{'rouge-1': {'r': 0.4523809523809524, 'p': 0.5757575757575758, 'f': 0.5066666617386668}, 'rouge-2': {'r': 0.24489795918367346, 'p': 0.3076923076923077, 'f': 0.2727272677918389}, 'rouge-l': {'r': 0.40476190476190477, 'p': 0.5151515151515151, 'f': 0.45333332840533336}}
+60: Quinn and Kyle are going out tonight. Kyle is working for his uncle Kev at the building site. Quinn hates school and she has to retake her exams. Kyle will ask his brother to get them some vodka and cigs.
+{'rouge-1': {'r': 0.21875, 'p': 0.4375, 'f': 0.29166666222222226}, 'rouge-2': {'r': 0.05263157894736842, 'p': 0.13333333333333333, 'f': 0.075471694054824}, 'rouge-l': {'r': 0.21875, 'p': 0.4375, 'f': 0.29166666222222226}}
+61: Whitney and Hailey are going to I-max cinemas on the day Aqua man is being released.
+{'rouge-1': {'r': 0.125, 'p': 0.15384615384615385, 'f': 0.13793102953626654}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.125, 'p': 0.15384615384615385, 'f': 0.13793102953626654}}
+62: Ed tells Matt to take it easy, because sex is for married people.
+{'rouge-1': {'r': 0.1935483870967742, 'p': 0.25, 'f': 0.21818181326281003}, 'rouge-2': {'r': 0.10810810810810811, 'p': 0.13333333333333333, 'f': 0.11940298012920493}, 'rouge-l': {'r': 0.1935483870967742, 'p': 0.25, 'f': 0.21818181326281003}}
+63: May is worried that Harry will be late for his birthday party. He's stuck in traffic in the traffic. Half of the guests is already here. May will wait for them.
+{'rouge-1': {'r': 0.2962962962962963, 'p': 0.4, 'f': 0.3404255270258036}, 'rouge-2': {'r': 0.16666666666666666, 'p': 0.2727272727272727, 'f': 0.2068965470154579}, 'rouge-l': {'r': 0.2962962962962963, 'p': 0.4, 'f': 0.3404255270258036}}
+64: Kirsten wants to put an insurance vote on the ballot. Larry and Kirsten will try to put an extra person in the lobby next year.
+{'rouge-1': {'r': 0.4444444444444444, 'p': 0.2857142857142857, 'f': 0.3478260821928167}, 'rouge-2': {'r': 0.125, 'p': 0.07692307692307693, 'f': 0.0952380905215422}, 'rouge-l': {'r': 0.4444444444444444, 'p': 0.2857142857142857, 'f': 0.3478260821928167}}
+65: Mia, Jennifer and Peter are angry at Trump. They want to change the world.
+{'rouge-1': {'r': 0.55, 'p': 0.6470588235294118, 'f': 0.5945945896274654}, 'rouge-2': {'r': 0.2631578947368421, 'p': 0.3125, 'f': 0.28571428075102046}, 'rouge-l': {'r': 0.55, 'p': 0.6470588235294118, 'f': 0.5945945896274654}}
+66: Mark will get tickets for Clint and Phil to see 'Batman. New Beginning' this Saturday at 7.
+{'rouge-1': {'r': 0.19230769230769232, 'p': 0.35714285714285715, 'f': 0.24999999545000007}, 'rouge-2': {'r': 0.07407407407407407, 'p': 0.1111111111111111, 'f': 0.08888888408888915}, 'rouge-l': {'r': 0.15384615384615385, 'p': 0.2857142857142857, 'f': 0.19999999545000013}}
+67: Leah told Ian that he dumped Leah. Ian doesn't know Claire. Ian will ask Leah if she knows Ian.
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.18181818181818182, 'f': 0.1538461489644972}, 'rouge-2': {'r': 0.06666666666666667, 'p': 0.1, 'f': 0.07999999520000028}, 'rouge-l': {'r': 0.13333333333333333, 'p': 0.18181818181818182, 'f': 0.1538461489644972}}
+68: Carrie and Alex are going to see Fantastic Beast this weekend.
+{'rouge-1': {'r': 0.4, 'p': 0.5454545454545454, 'f': 0.46153845665680476}, 'rouge-2': {'r': 0.13333333333333333, 'p': 0.18181818181818182, 'f': 0.1538461489644972}, 'rouge-l': {'r': 0.26666666666666666, 'p': 0.36363636363636365, 'f': 0.3076923028106509}}
+69: Victor and Oliver are happy that their teacher is no longer their teacher.
+{'rouge-1': {'r': 0.2, 'p': 0.6363636363636364, 'f': 0.30434782244801517}, 'rouge-2': {'r': 0.04878048780487805, 'p': 0.15384615384615385, 'f': 0.07407407041838153}, 'rouge-l': {'r': 0.17142857142857143, 'p': 0.5454545454545454, 'f': 0.2608695615784499}}
+70: Stefano recommends Josie Foucault's Pendulum to read. Josie read Salman Rushdie's review of Pendulum.
+{'rouge-1': {'r': 0.41935483870967744, 'p': 0.4642857142857143, 'f': 0.4406779611146223}, 'rouge-2': {'r': 0.3235294117647059, 'p': 0.3055555555555556, 'f': 0.314285709289796}, 'rouge-l': {'r': 0.41935483870967744, 'p': 0.4642857142857143, 'f': 0.4406779611146223}}
+71: Perry, Marlow, Janet and Forster are going to Asia in July or August. Forster wants to go to the mountains. Perry won the tickets to the cinema. Perry and Janet will meet tomorrow at 8 pm at Marlow's.
+{'rouge-1': {'r': 0.75, 'p': 0.5454545454545454, 'f': 0.6315789424930748}, 'rouge-2': {'r': 0.6, 'p': 0.3333333333333333, 'f': 0.4285714239795918}, 'rouge-l': {'r': 0.75, 'p': 0.5454545454545454, 'f': 0.6315789424930748}}
+72: Barry is going to march in Women's strike. Jake and Dave are going to join. Kelly will join them. Barry and Jake will meet around the campus at noon.
+{'rouge-1': {'r': 0.75, 'p': 0.8333333333333334, 'f': 0.7894736792243767}, 'rouge-2': {'r': 0.5714285714285714, 'p': 0.6666666666666666, 'f': 0.6153846104142012}, 'rouge-l': {'r': 0.75, 'p': 0.8333333333333334, 'f': 0.7894736792243767}}
+73: Laurel and John will meet tomorrow at Jade's collection at 5 pm to buy a birthday gift for Diana.
+{'rouge-1': {'r': 0.6428571428571429, 'p': 0.5, 'f': 0.5624999950781251}, 'rouge-2': {'r': 0.38461538461538464, 'p': 0.25, 'f': 0.30303029825528016}, 'rouge-l': {'r': 0.5714285714285714, 'p': 0.4444444444444444, 'f': 0.4999999950781251}}
+74: Amy looks serious at all times. Neil and Penny haven't talked to her and they want to meet her in person.
+{'rouge-1': {'r': 0.38235294117647056, 'p': 0.65, 'f': 0.48148147681755843}, 'rouge-2': {'r': 0.25, 'p': 0.4782608695652174, 'f': 0.32835820444642466}, 'rouge-l': {'r': 0.38235294117647056, 'p': 0.65, 'f': 0.48148147681755843}}
+75: Iris is trying to remove herself from an expense. She needs to add Juls to the group. Ken, Luke and Gerardo will add Juls to the expense.

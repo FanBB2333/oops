@@ -34,22 +34,35 @@ with open(src_path, 'r') as f:
     for idx, l in enumerate(lines):
         utters = l.split('#')
         occur_planning = [_i.strip() for _i in utters[0].strip()[1:-1].split('|') ]
-        if len(occur_planning) > 2:
+        if len(occur_planning) > 3:
             cnt_gt2 += 1
             selected_idx.append(idx)
         src.append(l[:-1])
 
 with open(selected_gene_path, 'w') as f:
-    for idx in selected_idx:
+    for i, idx in enumerate(selected_idx):
         f.write(str(rouge_scores[idx]) + '\n')
-        f.write(hypothesis[idx] + '\n')
+        f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
 
 with open(selected_ref_path, 'w') as f:
-    for idx in selected_idx:
-        f.write(reference[idx] + '\n')
+    for i, idx in enumerate(selected_idx):
+        f.write(str(i+1) + ': ' + reference[idx] + '\n')
 
 with open(selected_src_path, 'w') as f:
-    for idx in selected_idx:
-        f.write(src[idx] + '\n')
+    for i, idx in enumerate(selected_idx):
+        f.write(str(i+1) + ': ' + src[idx] + '\n')
+
+s_bart = './selected/test_generations_selected.txt'  # generated summary
+hypothesis = []
+with open('../SBART/composit/test_generations.txt', 'r') as f:
+    lines = f.readlines()
+    for l in lines:
+        hypothesis.append(l[:-1])
+rouge = Rouge()
+rouge_scores = rouge.get_scores(hypothesis, reference)
+with open(s_bart, 'w') as f:
+    for i, idx in enumerate(selected_idx):
+        f.write(str(rouge_scores[idx]) + '\n')
+        f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
 
 print("{} cases with more than 2 people in SAMSum-test.".format(cnt_gt2))
