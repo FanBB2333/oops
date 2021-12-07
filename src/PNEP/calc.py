@@ -30,7 +30,7 @@ selected_idx = []
 cnt_gt2: int= 0
 with open(src_path, 'r') as f:
     lines = f.readlines()
-    for idx,l in enumerate(lines):
+    for idx, l in enumerate(lines):
         utters = l.split('#')
         occur_planning = [_i.strip() for _i in utters[0].strip()[1:-1].split('|') ]
         if len(occur_planning) > 2:
