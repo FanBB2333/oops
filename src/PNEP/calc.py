@@ -21,8 +21,9 @@ with open(ref_path, 'r') as f:
     lines = f.readlines()
     for l in lines:
         reference.append(l[:-1])
-
 rouge = Rouge()
+rouge_scores = rouge.get_scores(hypothesis, reference)
+print(type(rouge_scores))
 print("Val", rouge.get_scores(hypothesis, reference, avg = True))
 
 src = []
@@ -40,17 +41,15 @@ with open(src_path, 'r') as f:
 
 with open(selected_gene_path, 'w') as f:
     for idx in selected_idx:
-        f.write(hypothesis[idx])
-        f.write('\n')
+        f.write(str(rouge_scores[idx]) + '\n')
+        f.write(hypothesis[idx] + '\n')
 
 with open(selected_ref_path, 'w') as f:
     for idx in selected_idx:
-        f.write(reference[idx])
-        f.write('\n')
+        f.write(reference[idx] + '\n')
 
 with open(selected_src_path, 'w') as f:
     for idx in selected_idx:
-        f.write(src[idx])
-        f.write('\n')
+        f.write(src[idx] + '\n')
 
 print("{} cases with more than 2 people in SAMSum-test.".format(cnt_gt2))
