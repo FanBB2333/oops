@@ -21,13 +21,13 @@ rouge = Rouge()
 print("Val", rouge.get_scores(hypothesis, reference, avg = True))
 
 src = []
-above_2: int= 0
+cnt_gt2: int= 0
 with open(src_path, 'r') as f:
     lines = f.readlines()
     for l in lines:
         utters = l.split('#')
         occur_planning = [_i.strip() for _i in utters[0].strip()[1:-1].split('|') ]
         if len(occur_planning) > 2:
-            above_2 += 1
+            cnt_gt2 += 1
         src.append(l[:-1])
-print("There are {} sentences with more than 2 people".format(above_2))
+print("{} cases with more than 2 people in SAMSum-test.".format(cnt_gt2))
