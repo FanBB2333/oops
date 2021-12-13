@@ -106,6 +106,7 @@ if __name__ == '__main__':
 
     # fg = plt.figure()
     plt.subplot(2,3,3)
+    plt.title('SAMSum')
     abs_deg_SAMSum_lens = np.array(summarized_SAMSum_lens) / np.array(original_lens)
     plt.ylim(yl1)
     plt.hist(abs_deg_SAMSum_lens, bins=20, label='SAMSum', density=True)
@@ -127,13 +128,13 @@ if __name__ == '__main__':
     ratio = np.array([abs(summarized_SAMSum_lens[i] - summarized_lens2[i]) for i in range(len(summarized_SAMSum_lens))]) / np.array(summarized_SAMSum_lens)
     print('SABART: '+str(np.average(ratio)))
     print("-" * 50)
-    print('asymmetric KL divergence on length: ')
+    print('asymmetric KL divergence on ratio distribution: ')
     print('PNEP: '+str(asymmetricKL(np.array(abs_deg_SAMSum_lens), np.array(abs_deg_PNEP_lens))) + ' and '+ str(asymmetricKL(np.array(abs_deg_PNEP_lens), np.array(abs_deg_SAMSum_lens))))
 
     print('SABART: '+str(asymmetricKL(np.array(abs_deg_SAMSum_lens), np.array(abs_deg_SBART_lens))) + ' and '+ str(asymmetricKL(np.array(abs_deg_SBART_lens), np.array(abs_deg_SAMSum_lens))))
     print("-" * 50)
 
-    print('symmetric KL divergence on length: ')
+    print('symmetric KL divergence on ratio distribution: ')
     print('PNEP: '+str(symmetricalKL(np.array(abs_deg_SAMSum_lens), np.array(abs_deg_PNEP_lens))) )
     print('SABART: '+str(symmetricalKL(np.array(abs_deg_SAMSum_lens), np.array(abs_deg_SBART_lens))) )
 
