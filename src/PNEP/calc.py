@@ -41,16 +41,21 @@ with open(src_path, 'r') as f:
 
 with open(selected_gene_path, 'w') as f:
     for i, idx in enumerate(selected_idx):
-        f.write(str(rouge_scores[idx]) + '\n')
-        f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
+        # f.write(str(rouge_scores[idx]) + '\n')
+        # f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
+        f.write(hypothesis[idx] + '\n')
+
 
 with open(selected_ref_path, 'w') as f:
     for i, idx in enumerate(selected_idx):
-        f.write(str(i+1) + ': ' + reference[idx] + '\n')
+        # f.write(str(i+1) + ': ' + reference[idx] + '\n')
+        f.write(reference[idx] + '\n')
+
 
 with open(selected_src_path, 'w') as f:
     for i, idx in enumerate(selected_idx):
-        f.write(str(i+1) + ': ' + src[idx] + '\n')
+        # f.write(str(i+1) + ': ' + src[idx] + '\n')
+        f.write(src[idx] + '\n')
 
 s_bart = './selected/test_generations_selected.txt'  # generated summary
 hypothesis = []
@@ -62,7 +67,8 @@ rouge = Rouge()
 rouge_scores = rouge.get_scores(hypothesis, reference)
 with open(s_bart, 'w') as f:
     for i, idx in enumerate(selected_idx):
-        f.write(str(rouge_scores[idx]) + '\n')
-        f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
+        # f.write(str(rouge_scores[idx]) + '\n')
+        # f.write(str(i+1) + ': ' + hypothesis[idx] + '\n')
+        f.write(hypothesis[idx] + '\n')
 
 print("{} cases with more than 2 people in SAMSum-test.".format(cnt_gt2))

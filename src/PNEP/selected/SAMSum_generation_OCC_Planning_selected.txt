@@ -1,150 +1,75 @@
-{'rouge-1': {'r': 0.38461538461538464, 'p': 0.23809523809523808, 'f': 0.29411764233564014}, 'rouge-2': {'r': 0.07692307692307693, 'p': 0.047619047619047616, 'f': 0.058823524688581694}, 'rouge-l': {'r': 0.38461538461538464, 'p': 0.23809523809523808, 'f': 0.29411764233564014}}
-1: Hannah is looking for Betty's number. Amanda advises her to ask Larry, who called her last time they were at the park.
-{'rouge-1': {'r': 1.0, 'p': 1.0, 'f': 0.999999995}, 'rouge-2': {'r': 1.0, 'p': 1.0, 'f': 0.999999995}, 'rouge-l': {'r': 1.0, 'p': 1.0, 'f': 0.999999995}}
-2: Ethan, Toby and Marshall are making fun of Scott.
-{'rouge-1': {'r': 0.5384615384615384, 'p': 0.7777777777777778, 'f': 0.6363636315289257}, 'rouge-2': {'r': 0.38461538461538464, 'p': 0.5882352941176471, 'f': 0.4651162742888048}, 'rouge-l': {'r': 0.5, 'p': 0.7222222222222222, 'f': 0.5909090860743802}}
-3: It's Wharton's birthday next week. Augustine, Darlene, Heather and Walker are going to buy him a paper shredder.
-{'rouge-1': {'r': 0.5925925925925926, 'p': 0.7619047619047619, 'f': 0.6666666617447917}, 'rouge-2': {'r': 0.35714285714285715, 'p': 0.47619047619047616, 'f': 0.4081632604081633}, 'rouge-l': {'r': 0.5555555555555556, 'p': 0.7142857142857143, 'f': 0.6249999950781252}}
-4: Jesse, Melvin, Lee and Maxine will chip in for the Refuge's Christmas foundation to help women and children who escape from abuse.
-{'rouge-1': {'r': 0.76, 'p': 0.7307692307692307, 'f': 0.7450980342176087}, 'rouge-2': {'r': 0.5, 'p': 0.5185185185185185, 'f': 0.509090904092562}, 'rouge-l': {'r': 0.76, 'p': 0.7307692307692307, 'f': 0.7450980342176087}}
-5: Adele got a new dog, a 4-month-old biscuit lab called Chewy. The other cats keep their distance, Poppy and Lulu seem to mother him. Speedy wants to play.
-{'rouge-1': {'r': 0.5454545454545454, 'p': 0.3333333333333333, 'f': 0.41379309873959574}, 'rouge-2': {'r': 0.1, 'p': 0.05555555555555555, 'f': 0.071428566836735}, 'rouge-l': {'r': 0.36363636363636365, 'p': 0.2222222222222222, 'f': 0.2758620642568371}}
-6: Julia didn't know Tim was gay. Adam's friend saw him with a guy. Nate and Julia are his friends.
-{'rouge-1': {'r': 0.39285714285714285, 'p': 0.6111111111111112, 'f': 0.47826086480151236}, 'rouge-2': {'r': 0.1, 'p': 0.17647058823529413, 'f': 0.12765956985061133}, 'rouge-l': {'r': 0.39285714285714285, 'p': 0.6111111111111112, 'f': 0.47826086480151236}}
-7: Patrycja, Inez, Gosia and Alicja enjoyed their evening at a new restaurant. They will go again on Wednesday.
-{'rouge-1': {'r': 0.9285714285714286, 'p': 0.65, 'f': 0.7647058775086506}, 'rouge-2': {'r': 0.625, 'p': 0.47619047619047616, 'f': 0.5405405356318481}, 'rouge-l': {'r': 0.9285714285714286, 'p': 0.65, 'f': 0.7647058775086506}}
-8: Annette is at home sick. James is going to Jesus bar. Oli cycled and ran around the bar but couldn't find anyone.
-{'rouge-1': {'r': 0.5, 'p': 0.6363636363636364, 'f': 0.5599999950720002}, 'rouge-2': {'r': 0.38461538461538464, 'p': 0.5, 'f': 0.4347826037807184}, 'rouge-l': {'r': 0.5, 'p': 0.6363636363636364, 'f': 0.5599999950720002}}
-9: Ying's 10 years challenge everyone. Helen, Norma and Zazu are impressed.
-{'rouge-1': {'r': 0.6190476190476191, 'p': 0.9285714285714286, 'f': 0.742857138057143}, 'rouge-2': {'r': 0.47619047619047616, 'p': 0.7692307692307693, 'f': 0.5882352893944637}, 'rouge-l': {'r': 0.5714285714285714, 'p': 0.8571428571428571, 'f': 0.6857142809142858}}
-10: Janet, Nicole, Alison, Arlene, Leslie, Ros, Eric and Sue are angry at Donald Trump.
-{'rouge-1': {'r': 0.23809523809523808, 'p': 0.2631578947368421, 'f': 0.2499999950125001}, 'rouge-2': {'r': 0.1, 'p': 0.1, 'f': 0.09999999500000027}, 'rouge-l': {'r': 0.23809523809523808, 'p': 0.2631578947368421, 'f': 0.2499999950125001}}
-11: Marta is looking for a technician to fix PC's. Joel recommends asking Cynthia or Elena. Marta will give them a try.
-{'rouge-1': {'r': 0.5294117647058824, 'p': 0.2727272727272727, 'f': 0.359999995512}, 'rouge-2': {'r': 0.2631578947368421, 'p': 0.1111111111111111, 'f': 0.15624999582519541}, 'rouge-l': {'r': 0.5294117647058824, 'p': 0.2727272727272727, 'f': 0.359999995512}}
-12: Fatima talked to Jenson and Alene. Alene is depressed and she won't go to the doctor. Fatima and Jenson are both Fatima's friends. If they break up, they will blame each other and talk to Fatima about it. Lincoln advises Fatima not to worry about them.
-{'rouge-1': {'r': 0.7857142857142857, 'p': 0.7857142857142857, 'f': 0.7857142807142857}, 'rouge-2': {'r': 0.5, 'p': 0.49056603773584906, 'f': 0.49523809023854876}, 'rouge-l': {'r': 0.7619047619047619, 'p': 0.7619047619047619, 'f': 0.7619047569047619}}
-13: Sandra and Brenda used to work together in the clothes factory. Brenda's husband Bill died 5 years ago. Brenda lives in Stoke now. Brenda and Sandra will meet up next Saturday around 11ish and go for lunch. They will organize a reunion for Lister's girls. Brenda will get back to Sandra about train times.
-{'rouge-1': {'r': 0.391304347826087, 'p': 0.6428571428571429, 'f': 0.48648648178232295}, 'rouge-2': {'r': 0.23076923076923078, 'p': 0.4, 'f': 0.2926829221891732}, 'rouge-l': {'r': 0.391304347826087, 'p': 0.6428571428571429, 'f': 0.48648648178232295}}
-14: Maria, Kate, Tommy and Sam are preparing for the conference. Tommy is preparing a power point.
-{'rouge-1': {'r': 0.875, 'p': 0.8235294117647058, 'f': 0.84848484348944}, 'rouge-2': {'r': 0.8, 'p': 0.7058823529411765, 'f': 0.7499999950195314}, 'rouge-l': {'r': 0.875, 'p': 0.8235294117647058, 'f': 0.84848484348944}}
-15: Freddie, Kelly, Jim, Greg, Bob, Mike, Mary, Alan and Nancy are discussing what they are watching on Netflix.
-{'rouge-1': {'r': 0.3888888888888889, 'p': 0.5384615384615384, 'f': 0.4516128983558793}, 'rouge-2': {'r': 0.15789473684210525, 'p': 0.25, 'f': 0.19354838235171706}, 'rouge-l': {'r': 0.3888888888888889, 'p': 0.5384615384615384, 'f': 0.4516128983558793}}
-16: Tessa wants Chloe to stop texting her boyfriend, Jim Andrews, because he's taken.
-{'rouge-1': {'r': 0.7647058823529411, 'p': 0.8125, 'f': 0.7878787828833793}, 'rouge-2': {'r': 0.5, 'p': 0.5333333333333333, 'f': 0.5161290272632676}, 'rouge-l': {'r': 0.7058823529411765, 'p': 0.75, 'f': 0.7272727222773187}}
-17: George, Robert, Paul and Yousuf are going to play basketball on Friday at 7 p.m.
-{'rouge-1': {'r': 0.5714285714285714, 'p': 0.47619047619047616, 'f': 0.5194805145218419}, 'rouge-2': {'r': 0.29545454545454547, 'p': 0.23214285714285715, 'f': 0.2599999950720001}, 'rouge-l': {'r': 0.5714285714285714, 'p': 0.47619047619047616, 'f': 0.5194805145218419}}
-18: Rory and Mitch are thinking of signing up Bill and Sammy for an International camp. Mitch is going to take care of them. They will probably put Bill on a Flixbus and he will arrive around 10 am on Sunday. Rory will give him Mitch's number. Joanna will pick him up. Mitch will chip in for gas.
-{'rouge-1': {'r': 0.45, 'p': 0.5625, 'f': 0.4999999950617285}, 'rouge-2': {'r': 0.30434782608695654, 'p': 0.4117647058823529, 'f': 0.3499999951125}, 'rouge-l': {'r': 0.45, 'p': 0.5625, 'f': 0.4999999950617285}}
-19: Ania, Kasia, Zuzia and Jan are going to the church tomorrow to praise Mary the Queen of Poland.
-{'rouge-1': {'r': 0.5, 'p': 0.8571428571428571, 'f': 0.6315789427146814}, 'rouge-2': {'r': 0.27906976744186046, 'p': 0.5217391304347826, 'f': 0.3636363590955005}, 'rouge-l': {'r': 0.4722222222222222, 'p': 0.8095238095238095, 'f': 0.5964912234164359}}
-20: Natalie, Denise and Judy are going to the new club at Regents Street this weekend. Judy is going on Friday with Miranda and Helen.
-{'rouge-1': {'r': 0.21875, 'p': 0.5384615384615384, 'f': 0.3111111070024692}, 'rouge-2': {'r': 0.10810810810810811, 'p': 0.3333333333333333, 'f': 0.1632653024239901}, 'rouge-l': {'r': 0.21875, 'p': 0.5384615384615384, 'f': 0.3111111070024692}}
-21: Jamie, Marlo, Jimmy and Alex are going to make 3 presentations in groups.
-{'rouge-1': {'r': 0.55, 'p': 0.6111111111111112, 'f': 0.5789473634349032}, 'rouge-2': {'r': 0.2608695652173913, 'p': 0.2727272727272727, 'f': 0.26666666166913583}, 'rouge-l': {'r': 0.55, 'p': 0.6111111111111112, 'f': 0.5789473634349032}}
-22: Hugh has a toothache and needs a dentist urgently. Andy recommends ProDent in the centre. Wade recommends all the dentist in that clinic.
-{'rouge-1': {'r': 0.4594594594594595, 'p': 0.5666666666666667, 'f': 0.5074626816217421}, 'rouge-2': {'r': 0.24390243902439024, 'p': 0.30303030303030304, 'f': 0.2702702653287072}, 'rouge-l': {'r': 0.4594594594594595, 'p': 0.5666666666666667, 'f': 0.5074626816217421}}
-23: Julie watched a Japanese horror movie. Paula and Rose will come over to Julie's to drink cocoa and watch "when Harry met Sally" until they fall asleep. Paula will chip in for an Uber.
-{'rouge-1': {'r': 0.2608695652173913, 'p': 0.25, 'f': 0.25531914393843375}, 'rouge-2': {'r': 0.04, 'p': 0.034482758620689655, 'f': 0.03703703206447256}, 'rouge-l': {'r': 0.2608695652173913, 'p': 0.25, 'f': 0.25531914393843375}}
-24: Dan, Tim, Chris, Martin and Tom are going out on Saturday at 8. Tom is out. Dan needs to be home at 2 and ready to drive on Sunday noon.
-{'rouge-1': {'r': 0.2631578947368421, 'p': 0.2702702702702703, 'f': 0.2666666616675556}, 'rouge-2': {'r': 0.06818181818181818, 'p': 0.075, 'f': 0.07142856643990964}, 'rouge-l': {'r': 0.2631578947368421, 'p': 0.2702702702702703, 'f': 0.2666666616675556}}
-25: Half of Jamie's class is sick. He has a high fever and a terible cough. His perdiatrician, doctor Tornez, is great with kids and treats every case individually. Linda wants to know if there is any news about the school trip.
-{'rouge-1': {'r': 0.4583333333333333, 'p': 0.5945945945945946, 'f': 0.5176470539072665}, 'rouge-2': {'r': 0.20754716981132076, 'p': 0.2391304347826087, 'f': 0.2222222172472198}, 'rouge-l': {'r': 0.4375, 'p': 0.5675675675675675, 'f': 0.4941176421425606}}
-26: Del accused Stanley of having an affair with Alison. Del disappeared from all the media and won't answer her phone. Del and Del have been together for 4 months. Stanley will talk to her when she's back. Stanley and Bill need to work on the Lidem project.
-{'rouge-1': {'r': 0.7058823529411765, 'p': 0.46153846153846156, 'f': 0.5581395301027584}, 'rouge-2': {'r': 0.41025641025641024, 'p': 0.25806451612903225, 'f': 0.3168316784276052}, 'rouge-l': {'r': 0.7058823529411765, 'p': 0.46153846153846156, 'f': 0.5581395301027584}}
-27: Ann thanks Katie for hosting Tim on Monday evening and for dropping him off at the railway station next morning. Ann and Katie spent a week together 20 years ago in Saint Fargeau. Ann's cousin, Erik's wife, is the cousin of Kate's best friend. Kate will send a text to Ann's son to tell him where she wants to pick him up tomorrow.
-{'rouge-1': {'r': 0.47368421052631576, 'p': 0.36, 'f': 0.4090909041838843}, 'rouge-2': {'r': 0.17391304347826086, 'p': 0.14814814814814814, 'f': 0.15999999503200013}, 'rouge-l': {'r': 0.47368421052631576, 'p': 0.36, 'f': 0.4090909041838843}}
-28: Madeline is not happy with Martin's requests and Jada's way of dealing with him. They had an argument today. Madeline and Alex are going for a beer tomorrow.
-{'rouge-1': {'r': 0.5925925925925926, 'p': 0.7619047619047619, 'f': 0.6666666617447917}, 'rouge-2': {'r': 0.3, 'p': 0.45, 'f': 0.3599999952000001}, 'rouge-l': {'r': 0.48148148148148145, 'p': 0.6190476190476191, 'f': 0.5416666617447917}}
-29: Maria, Alexander, Martha, Sarah and Lawrence will meet tomorrow evening at 17:15 to discuss all remaining questions after the IMF lecture.
-{'rouge-1': {'r': 0.25, 'p': 0.125, 'f': 0.16666666222222234}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.25, 'p': 0.125, 'f': 0.16666666222222234}}
-30: Becky, Trent and Joel have a new kitten called Coco. It took them 2 days to win her over. She tries to scratch the couch from time to time. If she wakes Joel up in the morning, he can lock her out of the room until feeding time.
-{'rouge-1': {'r': 0.39285714285714285, 'p': 0.8461538461538461, 'f': 0.536585361522903}, 'rouge-2': {'r': 0.21875, 'p': 0.5384615384615384, 'f': 0.3111111070024692}, 'rouge-l': {'r': 0.39285714285714285, 'p': 0.8461538461538461, 'f': 0.536585361522903}}
-31: Natalie is pregnant. Dave is the father. Jane, Sally, Henriette and Greg are surprised.
-{'rouge-1': {'r': 0.5714285714285714, 'p': 0.6153846153846154, 'f': 0.5925925875994514}, 'rouge-2': {'r': 0.26666666666666666, 'p': 0.25, 'f': 0.2580645111342353}, 'rouge-l': {'r': 0.5, 'p': 0.5384615384615384, 'f': 0.5185185135253774}}
-32: Gemma and Timmy are going to invite Timmy and his date to Lona and Michelle's wedding receptions.
-{'rouge-1': {'r': 0.4482758620689655, 'p': 0.7647058823529411, 'f': 0.5652173866446126}, 'rouge-2': {'r': 0.2903225806451613, 'p': 0.5, 'f': 0.36734693412744696}, 'rouge-l': {'r': 0.3793103448275862, 'p': 0.6470588235294118, 'f': 0.47826086490548214}}
-33: Claudia, Andy and Mark are meeting with Mr. Benson in Peru to discuss a contract with a new client.
-{'rouge-1': {'r': 0.5789473684210527, 'p': 0.7857142857142857, 'f': 0.666666661781451}, 'rouge-2': {'r': 0.19047619047619047, 'p': 0.2857142857142857, 'f': 0.22857142377142864}, 'rouge-l': {'r': 0.5789473684210527, 'p': 0.7857142857142857, 'f': 0.666666661781451}}
-34: Jasmine loves the new song of Charlie Puth. Paola loves Galway Girl and Ed Sheeran.
-{'rouge-1': {'r': 0.6176470588235294, 'p': 0.75, 'f': 0.677419349885536}, 'rouge-2': {'r': 0.2894736842105263, 'p': 0.34375, 'f': 0.31428570932244904}, 'rouge-l': {'r': 0.5294117647058824, 'p': 0.6428571428571429, 'f': 0.5806451563371489}}
-35: Chae-yeong, Arthur and Mariana are looking for the readings for the next session of Stephen's seminar. Rita will go to the print shop tomorrow morning and let them know if the texts are available.
-{'rouge-1': {'r': 0.53125, 'p': 0.8095238095238095, 'f': 0.6415094291776434}, 'rouge-2': {'r': 0.3157894736842105, 'p': 0.6, 'f': 0.4137930989298454}, 'rouge-l': {'r': 0.53125, 'p': 0.8095238095238095, 'f': 0.6415094291776434}}
-36: Sue will send Graham dates for weekends in the Romford area. Lady Louise wants him to focus on motorways this time.
-{'rouge-1': {'r': 0.39285714285714285, 'p': 0.5789473684210527, 'f': 0.46808510156631966}, 'rouge-2': {'r': 0.2, 'p': 0.3333333333333333, 'f': 0.24999999531250006}, 'rouge-l': {'r': 0.39285714285714285, 'p': 0.5789473684210527, 'f': 0.46808510156631966}}
-37: Nathalie, Pauline, Jacob and Anthony are going to Greece for a holiday in August. Nathalie's sister is getting married.
-{'rouge-1': {'r': 0.5, 'p': 0.5625, 'f': 0.5294117597231834}, 'rouge-2': {'r': 0.23809523809523808, 'p': 0.3333333333333333, 'f': 0.2777777729166667}, 'rouge-l': {'r': 0.5, 'p': 0.5625, 'f': 0.5294117597231834}}
-38: Molly, Margaret, Kai and Peter are hesitating about going to Sweden for a week in January.
-{'rouge-1': {'r': 0.75, 'p': 0.8823529411764706, 'f': 0.8108108058436816}, 'rouge-2': {'r': 0.375, 'p': 0.5294117647058824, 'f': 0.4390243853896491}, 'rouge-l': {'r': 0.7, 'p': 0.8235294117647058, 'f': 0.7567567517896275}}
-39: Adam is going to Multisports this week. Mair will bring him and Xander to Mel at half 10.
-{'rouge-1': {'r': 0.46875, 'p': 0.75, 'f': 0.5769230721893491}, 'rouge-2': {'r': 0.21875, 'p': 0.3181818181818182, 'f': 0.2592592544307271}, 'rouge-l': {'r': 0.4375, 'p': 0.7, 'f': 0.5384615337278107}}
-40: Alexander doesn't want to go to the lecture with Mr Linda tomorrow. Igor and Casper are going to meet near the university instead.
-{'rouge-1': {'r': 0.5652173913043478, 'p': 0.65, 'f': 0.6046511578150352}, 'rouge-2': {'r': 0.25925925925925924, 'p': 0.3181818181818182, 'f': 0.2857142807663474}, 'rouge-l': {'r': 0.5217391304347826, 'p': 0.6, 'f': 0.5581395299080585}}
-41: Marsha, John, Cynthia, Mohammad and Gavin are going on a trip to Madagascar. They are going to stay at a hotel in Nosy Be.
-{'rouge-1': {'r': 0.4230769230769231, 'p': 0.8461538461538461, 'f': 0.5641025596581197}, 'rouge-2': {'r': 0.25, 'p': 0.5833333333333334, 'f': 0.3499999958}, 'rouge-l': {'r': 0.4230769230769231, 'p': 0.8461538461538461, 'f': 0.5641025596581197}}
-42: Reeve, Booker, Dodson and Trish are going to the seaside for winter break.
-{'rouge-1': {'r': 0.8421052631578947, 'p': 0.8888888888888888, 'f': 0.8648648598685172}, 'rouge-2': {'r': 0.6842105263157895, 'p': 0.7222222222222222, 'f': 0.7027026977063551}, 'rouge-l': {'r': 0.8421052631578947, 'p': 0.8888888888888888, 'f': 0.8648648598685172}}
-43: Laura, Kelsey, Oona and Sid are going to see Aquaman on Thursday at 8:10. Oona will buy the tickets.
-{'rouge-1': {'r': 0.6551724137931034, 'p': 0.6129032258064516, 'f': 0.6333333283388889}, 'rouge-2': {'r': 0.5161290322580645, 'p': 0.45714285714285713, 'f': 0.48484847986685037}, 'rouge-l': {'r': 0.6551724137931034, 'p': 0.6129032258064516, 'f': 0.6333333283388889}}
-44: Katy and Ana are going to see a film by Lola Arias on the making of the play he saw last year. Ana invites Carlton to join them for dinner and drinks on Saturday at 7.
-{'rouge-1': {'r': 0.2857142857142857, 'p': 0.46153846153846156, 'f': 0.3529411717474049}, 'rouge-2': {'r': 0.14285714285714285, 'p': 0.21428571428571427, 'f': 0.17142856662857156}, 'rouge-l': {'r': 0.2857142857142857, 'p': 0.46153846153846156, 'f': 0.3529411717474049}}
-45: Jose Ricky, Ricky and Amanda are going to Cuba, Mexico, Thailand and Thailand in 2019.
-{'rouge-1': {'r': 0.28125, 'p': 0.5, 'f': 0.35999999539200006}, 'rouge-2': {'r': 0.05555555555555555, 'p': 0.11764705882352941, 'f': 0.07547169375578522}, 'rouge-l': {'r': 0.25, 'p': 0.4444444444444444, 'f': 0.319999995392}}
-46: Sam came back from work. Lucy and Chiara were worried about him. Yvonne is dating a hot Argentinian.
-{'rouge-1': {'r': 0.5652173913043478, 'p': 0.5909090909090909, 'f': 0.577777772780247}, 'rouge-2': {'r': 0.23636363636363636, 'p': 0.25, 'f': 0.24299064920953806}, 'rouge-l': {'r': 0.5, 'p': 0.5227272727272727, 'f': 0.5111111061135803}}
-47: John and Annie are coming back to London. John lost his job in Germany because his team got liquidated. He got a better offer from an IT company in London, but he didn't accept it. Amber will have to look for a new flat. Erin offers her a place to stay for a while.
-{'rouge-1': {'r': 0.16666666666666666, 'p': 0.23076923076923078, 'f': 0.19354838222684714}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.1111111111111111, 'p': 0.15384615384615385, 'f': 0.12903225319458916}}
-48: Lynn, Diana, Wilbur and Justin don't want to have sex with old men.
-{'rouge-1': {'r': 0.631578947368421, 'p': 0.42857142857142855, 'f': 0.5106382930556813}, 'rouge-2': {'r': 0.42105263157894735, 'p': 0.26666666666666666, 'f': 0.32653060749687635}, 'rouge-l': {'r': 0.631578947368421, 'p': 0.42857142857142855, 'f': 0.5106382930556813}}
-49: Mike and Dave think Wendy has grown prettier since she came from Houston. Dave wants to hit on her, but Mike tells him to stay off because Jerry is her lover.
-{'rouge-1': {'r': 0.45454545454545453, 'p': 0.9090909090909091, 'f': 0.6060606016161617}, 'rouge-2': {'r': 0.28, 'p': 0.5833333333333334, 'f': 0.3783783739956173}, 'rouge-l': {'r': 0.45454545454545453, 'p': 0.9090909090909091, 'f': 0.6060606016161617}}
-50: Sally and Rita are excited about Borns' new album and Florence's new single.
-{'rouge-1': {'r': 0.75, 'p': 0.5454545454545454, 'f': 0.6315789424930748}, 'rouge-2': {'r': 0.4, 'p': 0.25, 'f': 0.3076923029585799}, 'rouge-l': {'r': 0.75, 'p': 0.5454545454545454, 'f': 0.6315789424930748}}
-51: Haley, Jenny and Tess are looking at an old photo of Bella. Bella was a kitten when she was 2 weeks old. Now she's middle-aged.
-{'rouge-1': {'r': 0.3181818181818182, 'p': 0.45161290322580644, 'f': 0.37333332848355555}, 'rouge-2': {'r': 0.125, 'p': 0.17647058823529413, 'f': 0.1463414585603809}, 'rouge-l': {'r': 0.29545454545454547, 'p': 0.41935483870967744, 'f': 0.34666666181688893}}
-52: Samuel is 35 years old. He speaks Telugu, a language spoken in South east India with nearly 90 million speakers. Thammu or Thammadu is the word for elder brother in his language. Tim is 55.
-{'rouge-1': {'r': 0.4166666666666667, 'p': 0.5555555555555556, 'f': 0.47619047129251707}, 'rouge-2': {'r': 0.16666666666666666, 'p': 0.2222222222222222, 'f': 0.19047618557823143}, 'rouge-l': {'r': 0.4166666666666667, 'p': 0.5555555555555556, 'f': 0.47619047129251707}}
-53: Louis is wondering what he should buy Lilly and Stephen for the wedding. Sara is on a boring meeting.
-{'rouge-1': {'r': 0.8214285714285714, 'p': 0.5348837209302325, 'f': 0.6478873191668321}, 'rouge-2': {'r': 0.4482758620689655, 'p': 0.2653061224489796, 'f': 0.3333333286620645}, 'rouge-l': {'r': 0.7857142857142857, 'p': 0.5116279069767442, 'f': 0.6197183050823251}}
-54: Andrew Simmons is sending the list of people who are coming to their individual meetings tomorrow. Samuel Anderson won't come, because he has an appointment with a doctor. Katherine Jackson won't be coming, because she has a retake. The meetings will take place in Andrew Simmons' office in room 104.
-{'rouge-1': {'r': 0.7857142857142857, 'p': 0.55, 'f': 0.6470588186851212}, 'rouge-2': {'r': 0.4666666666666667, 'p': 0.35, 'f': 0.3999999951020409}, 'rouge-l': {'r': 0.7857142857142857, 'p': 0.55, 'f': 0.6470588186851212}}
-55: Jay will lend Joe money to buy tickets for the diamond in Kenya. He convinced Ruth and Paulette to accompany him.
-{'rouge-1': {'r': 0.5405405405405406, 'p': 0.6896551724137931, 'f': 0.606060601134068}, 'rouge-2': {'r': 0.2619047619047619, 'p': 0.3333333333333333, 'f': 0.2933333284053334}, 'rouge-l': {'r': 0.5405405405405406, 'p': 0.6896551724137931, 'f': 0.606060601134068}}
-56: Yaz and Tania are going to the pub on Friday at 8 o'clock. Tania and Sophie are thinking of breaking up before Uni. Yaz needs high grades for her course to get into Exeter.
-{'rouge-1': {'r': 0.75, 'p': 0.9473684210526315, 'f': 0.8372092973931856}, 'rouge-2': {'r': 0.64, 'p': 0.8421052631578947, 'f': 0.7272727223657025}, 'rouge-l': {'r': 0.75, 'p': 0.9473684210526315, 'f': 0.8372092973931856}}
-57: Ethan and Leo are going to see Sólstafir on Wednesday 21.11. Noah might have to stay late at work.
-{'rouge-1': {'r': 0.6176470588235294, 'p': 0.75, 'f': 0.677419349885536}, 'rouge-2': {'r': 0.32432432432432434, 'p': 0.375, 'f': 0.34782608198277676}, 'rouge-l': {'r': 0.5588235294117647, 'p': 0.6785714285714286, 'f': 0.612903220853278}}
-58: Zandra's daughter, Tam, has a birthday tomorrow. Tricia will send Erwin to get the cake by bike. Zandra has to make decorations. The food and outside attractions will be organized by a company.
-{'rouge-1': {'r': 0.3448275862068966, 'p': 0.5555555555555556, 'f': 0.4255319101674967}, 'rouge-2': {'r': 0.23076923076923078, 'p': 0.4090909090909091, 'f': 0.2950819626014513}, 'rouge-l': {'r': 0.3448275862068966, 'p': 0.5555555555555556, 'f': 0.4255319101674967}}
-59: Daniel, Michael, Matt and Brian are going on a trip to Bosnia and Herzegovina. Brian didn't know they were going to enter Bosnia.
-{'rouge-1': {'r': 0.5714285714285714, 'p': 0.5, 'f': 0.5333333283555556}, 'rouge-2': {'r': 0.30612244897959184, 'p': 0.25, 'f': 0.27522935284908684}, 'rouge-l': {'r': 0.5, 'p': 0.4375, 'f': 0.46666666168888893}}
-60: Quinn and Kyle are going out tonight. Kyle is working for his uncle Kev at the building site. Kyle's cousin was taken on with an apprenticeship in bricklaying last year. Kyle will ask his brother to get them some vodka and cigs. Kyle heard Kirsty was with Nathan Baker these days. Kyle and Quinn will meet outside the club at 6.
-{'rouge-1': {'r': 0.375, 'p': 0.6, 'f': 0.4615384568047337}, 'rouge-2': {'r': 0.15789473684210525, 'p': 0.3, 'f': 0.20689654720570758}, 'rouge-l': {'r': 0.34375, 'p': 0.55, 'f': 0.42307691834319533}}
-61: Hailey and Whitney are going to I-max cinemas on the day Aquaman is released. Shadrack and his girlfriend will accompany them.
-{'rouge-1': {'r': 0.5, 'p': 0.7272727272727273, 'f': 0.5925925877640604}, 'rouge-2': {'r': 0.3125, 'p': 0.5, 'f': 0.38461537988165684}, 'rouge-l': {'r': 0.5, 'p': 0.7272727272727273, 'f': 0.5925925877640604}}
-62: Ed, Valerie, Chris, Lor, Atnee, Jessica and Matt are against sex.
-{'rouge-1': {'r': 0.3870967741935484, 'p': 0.4444444444444444, 'f': 0.4137930984720571}, 'rouge-2': {'r': 0.16216216216216217, 'p': 0.20689655172413793, 'f': 0.18181817689164384}, 'rouge-l': {'r': 0.3870967741935484, 'p': 0.4444444444444444, 'f': 0.4137930984720571}}
-63: Henry, Peter, Michael and Vanessa are late for the birthday party. Peter is stuck in a traffic jam. There was an accident and half of the guests are already here.
-{'rouge-1': {'r': 0.5925925925925926, 'p': 0.34782608695652173, 'f': 0.4383561597222743}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.2033898305084746, 'f': 0.25263157424044325}, 'rouge-l': {'r': 0.5925925925925926, 'p': 0.34782608695652173, 'f': 0.4383561597222743}}
-64: Larry and Kirsten are going to post an email on the BoD. Kirsten wants to get her husband to sign off on it. Larry wants to see a menorah in the lobby next year. They are also going to take input from Jamie and John, who have a lot of experience and knowledge in the role. The current BoD has ignored them both.
-{'rouge-1': {'r': 0.6666666666666666, 'p': 0.6666666666666666, 'f': 0.6666666616666668}, 'rouge-2': {'r': 0.5, 'p': 0.5, 'f': 0.4999999950000001}, 'rouge-l': {'r': 0.6666666666666666, 'p': 0.6666666666666666, 'f': 0.6666666616666668}}
-65: Mia, Jennifer, Karine and Peter are angry with Trump.
-{'rouge-1': {'r': 0.65, 'p': 0.65, 'f': 0.6499999950000002}, 'rouge-2': {'r': 0.5263157894736842, 'p': 0.5263157894736842, 'f': 0.5263157844736842}, 'rouge-l': {'r': 0.65, 'p': 0.65, 'f': 0.6499999950000002}}
-66: Mark, Clint and Phil are going to see 'Batman' this Saturday at 7. Mark will get tickets for them all.
-{'rouge-1': {'r': 0.2692307692307692, 'p': 0.4375, 'f': 0.3333333286167801}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-l': {'r': 0.23076923076923078, 'p': 0.375, 'f': 0.28571428099773244}}
-67: Maddie spoke with Leah and she told Ian that he dumped Claire years ago. Ian doesn't know Claire.
-{'rouge-1': {'r': 0.7333333333333333, 'p': 0.6111111111111112, 'f': 0.6666666617079889}, 'rouge-2': {'r': 0.26666666666666666, 'p': 0.2222222222222222, 'f': 0.24242423746556482}, 'rouge-l': {'r': 0.7333333333333333, 'p': 0.6111111111111112, 'f': 0.6666666617079889}}
-68: Carrie has just seen Fantastic Beast. Gina saw it last week. Gina and Ginna liked Eddie Redmayne as Newt.
-{'rouge-1': {'r': 0.5333333333333333, 'p': 0.6666666666666666, 'f': 0.592592587654321}, 'rouge-2': {'r': 0.26666666666666666, 'p': 0.3333333333333333, 'f': 0.2962962913580247}, 'rouge-l': {'r': 0.4, 'p': 0.5, 'f': 0.4444444395061729}}
-69: Shanon, Victor, Oliver and Sid's teacher got fired and thrown out of school.
-{'rouge-1': {'r': 0.22857142857142856, 'p': 0.36363636363636365, 'f': 0.280701749646045}, 'rouge-2': {'r': 0.024390243902439025, 'p': 0.041666666666666664, 'f': 0.03076922611124331}, 'rouge-l': {'r': 0.22857142857142856, 'p': 0.36363636363636365, 'f': 0.280701749646045}}
-70: Josie doesn't like Eco's Pendulum. Stefano thinks it's weird. Salman Rushdie hated Pendulum and said that it's not a novel, but rather a computer game.
-{'rouge-1': {'r': 0.41935483870967744, 'p': 0.65, 'f': 0.5098039168012304}, 'rouge-2': {'r': 0.2647058823529412, 'p': 0.45, 'f': 0.3333333286694102}, 'rouge-l': {'r': 0.41935483870967744, 'p': 0.65, 'f': 0.5098039168012304}}
-71: Perry, Marlow, Janet and Forster are going on holiday to Asia. They will meet tomorrow at 8 pm at the cinema.
-{'rouge-1': {'r': 0.8125, 'p': 0.65, 'f': 0.7222222172839509}, 'rouge-2': {'r': 0.5333333333333333, 'p': 0.4, 'f': 0.45714285224489803}, 'rouge-l': {'r': 0.8125, 'p': 0.65, 'f': 0.7222222172839509}}
-72: Barry, Dave, Kelly and Jake are going to march in the Women's strike. They will meet around the campus at noon.
-{'rouge-1': {'r': 0.8, 'p': 0.8888888888888888, 'f': 0.8421052581717452}, 'rouge-2': {'r': 0.5238095238095238, 'p': 0.6111111111111112, 'f': 0.5641025591321501}, 'rouge-l': {'r': 0.75, 'p': 0.8333333333333334, 'f': 0.7894736792243767}}
-73: Laurel and John will meet at Jades at around 5 pm tomorrow to buy a birthday gift for Diana.
-{'rouge-1': {'r': 0.7857142857142857, 'p': 0.6470588235294118, 'f': 0.709677414401665}, 'rouge-2': {'r': 0.6153846153846154, 'p': 0.38095238095238093, 'f': 0.4705882305709343}, 'rouge-l': {'r': 0.7857142857142857, 'p': 0.6470588235294118, 'f': 0.709677414401665}}
-74: Amy looks serious to Penny, Owen and Neil. They haven't talked to her. Penny and Owen want to meet her in person.
-{'rouge-1': {'r': 0.7058823529411765, 'p': 0.7741935483870968, 'f': 0.7384615334721895}, 'rouge-2': {'r': 0.5909090909090909, 'p': 0.6666666666666666, 'f': 0.6265060191145304}, 'rouge-l': {'r': 0.7058823529411765, 'p': 0.7741935483870968, 'f': 0.7384615334721895}}
-75: Iris is trying to remove herself from an expense. Ken, Julia, Gerardo and George will add her back to the group. Gerardo will ask the peeps leaving early to stay in the splitwise group until the end of the month.
+Hannah is looking for Betty's number. Amanda advises her to ask Larry, who called her last time they were at the park.
+Ethan, Toby and Marshall are making fun of Scott.
+It's Wharton's birthday next week. Augustine, Darlene, Heather and Walker are going to buy him a paper shredder.
+Jesse, Melvin, Lee and Maxine will chip in for the Refuge's Christmas foundation to help women and children who escape from abuse.
+Adele got a new dog, a 4-month-old biscuit lab called Chewy. The other cats keep their distance, Poppy and Lulu seem to mother him. Speedy wants to play.
+Julia didn't know Tim was gay. Adam's friend saw him with a guy. Nate and Julia are his friends.
+Patrycja, Inez, Gosia and Alicja enjoyed their evening at a new restaurant. They will go again on Wednesday.
+Annette is at home sick. James is going to Jesus bar. Oli cycled and ran around the bar but couldn't find anyone.
+Ying's 10 years challenge everyone. Helen, Norma and Zazu are impressed.
+Janet, Nicole, Alison, Arlene, Leslie, Ros, Eric and Sue are angry at Donald Trump.
+Marta is looking for a technician to fix PC's. Joel recommends asking Cynthia or Elena. Marta will give them a try.
+Fatima talked to Jenson and Alene. Alene is depressed and she won't go to the doctor. Fatima and Jenson are both Fatima's friends. If they break up, they will blame each other and talk to Fatima about it. Lincoln advises Fatima not to worry about them.
+Sandra and Brenda used to work together in the clothes factory. Brenda's husband Bill died 5 years ago. Brenda lives in Stoke now. Brenda and Sandra will meet up next Saturday around 11ish and go for lunch. They will organize a reunion for Lister's girls. Brenda will get back to Sandra about train times.
+Maria, Kate, Tommy and Sam are preparing for the conference. Tommy is preparing a power point.
+Freddie, Kelly, Jim, Greg, Bob, Mike, Mary, Alan and Nancy are discussing what they are watching on Netflix.
+Tessa wants Chloe to stop texting her boyfriend, Jim Andrews, because he's taken.
+George, Robert, Paul and Yousuf are going to play basketball on Friday at 7 p.m.
+Rory and Mitch are thinking of signing up Bill and Sammy for an International camp. Mitch is going to take care of them. They will probably put Bill on a Flixbus and he will arrive around 10 am on Sunday. Rory will give him Mitch's number. Joanna will pick him up. Mitch will chip in for gas.
+Ania, Kasia, Zuzia and Jan are going to the church tomorrow to praise Mary the Queen of Poland.
+Natalie, Denise and Judy are going to the new club at Regents Street this weekend. Judy is going on Friday with Miranda and Helen.
+Jamie, Marlo, Jimmy and Alex are going to make 3 presentations in groups.
+Hugh has a toothache and needs a dentist urgently. Andy recommends ProDent in the centre. Wade recommends all the dentist in that clinic.
+Julie watched a Japanese horror movie. Paula and Rose will come over to Julie's to drink cocoa and watch "when Harry met Sally" until they fall asleep. Paula will chip in for an Uber.
+Dan, Tim, Chris, Martin and Tom are going out on Saturday at 8. Tom is out. Dan needs to be home at 2 and ready to drive on Sunday noon.
+Half of Jamie's class is sick. He has a high fever and a terible cough. His perdiatrician, doctor Tornez, is great with kids and treats every case individually. Linda wants to know if there is any news about the school trip.
+Del accused Stanley of having an affair with Alison. Del disappeared from all the media and won't answer her phone. Del and Del have been together for 4 months. Stanley will talk to her when she's back. Stanley and Bill need to work on the Lidem project.
+Ann thanks Katie for hosting Tim on Monday evening and for dropping him off at the railway station next morning. Ann and Katie spent a week together 20 years ago in Saint Fargeau. Ann's cousin, Erik's wife, is the cousin of Kate's best friend. Kate will send a text to Ann's son to tell him where she wants to pick him up tomorrow.
+Madeline is not happy with Martin's requests and Jada's way of dealing with him. They had an argument today. Madeline and Alex are going for a beer tomorrow.
+Maria, Alexander, Martha, Sarah and Lawrence will meet tomorrow evening at 17:15 to discuss all remaining questions after the IMF lecture.
+Becky, Trent and Joel have a new kitten called Coco. It took them 2 days to win her over. She tries to scratch the couch from time to time. If she wakes Joel up in the morning, he can lock her out of the room until feeding time.
+Natalie is pregnant. Dave is the father. Jane, Sally, Henriette and Greg are surprised.
+Gemma and Timmy are going to invite Timmy and his date to Lona and Michelle's wedding receptions.
+Claudia, Andy and Mark are meeting with Mr. Benson in Peru to discuss a contract with a new client.
+Jasmine loves the new song of Charlie Puth. Paola loves Galway Girl and Ed Sheeran.
+Chae-yeong, Arthur and Mariana are looking for the readings for the next session of Stephen's seminar. Rita will go to the print shop tomorrow morning and let them know if the texts are available.
+Sue will send Graham dates for weekends in the Romford area. Lady Louise wants him to focus on motorways this time.
+Nathalie, Pauline, Jacob and Anthony are going to Greece for a holiday in August. Nathalie's sister is getting married.
+Molly, Margaret, Kai and Peter are hesitating about going to Sweden for a week in January.
+Adam is going to Multisports this week. Mair will bring him and Xander to Mel at half 10.
+Alexander doesn't want to go to the lecture with Mr Linda tomorrow. Igor and Casper are going to meet near the university instead.
+Marsha, John, Cynthia, Mohammad and Gavin are going on a trip to Madagascar. They are going to stay at a hotel in Nosy Be.
+Reeve, Booker, Dodson and Trish are going to the seaside for winter break.
+Laura, Kelsey, Oona and Sid are going to see Aquaman on Thursday at 8:10. Oona will buy the tickets.
+Katy and Ana are going to see a film by Lola Arias on the making of the play he saw last year. Ana invites Carlton to join them for dinner and drinks on Saturday at 7.
+Jose Ricky, Ricky and Amanda are going to Cuba, Mexico, Thailand and Thailand in 2019.
+Sam came back from work. Lucy and Chiara were worried about him. Yvonne is dating a hot Argentinian.
+John and Annie are coming back to London. John lost his job in Germany because his team got liquidated. He got a better offer from an IT company in London, but he didn't accept it. Amber will have to look for a new flat. Erin offers her a place to stay for a while.
+Lynn, Diana, Wilbur and Justin don't want to have sex with old men.
+Mike and Dave think Wendy has grown prettier since she came from Houston. Dave wants to hit on her, but Mike tells him to stay off because Jerry is her lover.
+Sally and Rita are excited about Borns' new album and Florence's new single.
+Haley, Jenny and Tess are looking at an old photo of Bella. Bella was a kitten when she was 2 weeks old. Now she's middle-aged.
+Samuel is 35 years old. He speaks Telugu, a language spoken in South east India with nearly 90 million speakers. Thammu or Thammadu is the word for elder brother in his language. Tim is 55.
+Louis is wondering what he should buy Lilly and Stephen for the wedding. Sara is on a boring meeting.
+Andrew Simmons is sending the list of people who are coming to their individual meetings tomorrow. Samuel Anderson won't come, because he has an appointment with a doctor. Katherine Jackson won't be coming, because she has a retake. The meetings will take place in Andrew Simmons' office in room 104.
+Jay will lend Joe money to buy tickets for the diamond in Kenya. He convinced Ruth and Paulette to accompany him.
+Yaz and Tania are going to the pub on Friday at 8 o'clock. Tania and Sophie are thinking of breaking up before Uni. Yaz needs high grades for her course to get into Exeter.
+Ethan and Leo are going to see Sólstafir on Wednesday 21.11. Noah might have to stay late at work.
+Zandra's daughter, Tam, has a birthday tomorrow. Tricia will send Erwin to get the cake by bike. Zandra has to make decorations. The food and outside attractions will be organized by a company.
+Daniel, Michael, Matt and Brian are going on a trip to Bosnia and Herzegovina. Brian didn't know they were going to enter Bosnia.
+Quinn and Kyle are going out tonight. Kyle is working for his uncle Kev at the building site. Kyle's cousin was taken on with an apprenticeship in bricklaying last year. Kyle will ask his brother to get them some vodka and cigs. Kyle heard Kirsty was with Nathan Baker these days. Kyle and Quinn will meet outside the club at 6.
+Hailey and Whitney are going to I-max cinemas on the day Aquaman is released. Shadrack and his girlfriend will accompany them.
+Ed, Valerie, Chris, Lor, Atnee, Jessica and Matt are against sex.
+Henry, Peter, Michael and Vanessa are late for the birthday party. Peter is stuck in a traffic jam. There was an accident and half of the guests are already here.
+Larry and Kirsten are going to post an email on the BoD. Kirsten wants to get her husband to sign off on it. Larry wants to see a menorah in the lobby next year. They are also going to take input from Jamie and John, who have a lot of experience and knowledge in the role. The current BoD has ignored them both.
+Mia, Jennifer, Karine and Peter are angry with Trump.
+Mark, Clint and Phil are going to see 'Batman' this Saturday at 7. Mark will get tickets for them all.
+Maddie spoke with Leah and she told Ian that he dumped Claire years ago. Ian doesn't know Claire.
+Carrie has just seen Fantastic Beast. Gina saw it last week. Gina and Ginna liked Eddie Redmayne as Newt.
+Shanon, Victor, Oliver and Sid's teacher got fired and thrown out of school.
+Josie doesn't like Eco's Pendulum. Stefano thinks it's weird. Salman Rushdie hated Pendulum and said that it's not a novel, but rather a computer game.
+Perry, Marlow, Janet and Forster are going on holiday to Asia. They will meet tomorrow at 8 pm at the cinema.
+Barry, Dave, Kelly and Jake are going to march in the Women's strike. They will meet around the campus at noon.
+Laurel and John will meet at Jades at around 5 pm tomorrow to buy a birthday gift for Diana.
+Amy looks serious to Penny, Owen and Neil. They haven't talked to her. Penny and Owen want to meet her in person.
+Iris is trying to remove herself from an expense. Ken, Julia, Gerardo and George will add her back to the group. Gerardo will ask the peeps leaving early to stay in the splitwise group until the end of the month.
