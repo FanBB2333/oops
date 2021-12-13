@@ -78,33 +78,40 @@ if __name__ == '__main__':
     # using length
     abs_deg_PNEP_lens = np.array(summarized_lens) / np.array(original_lens)
     abs_deg_SBART_lens = np.array(summarized_lens2) / np.array(original_lens)
-    plt.subplot(3, 2, 1)
+
+    yl1 = [0, 7]
+    yl2 = [0, 5]
+    plt.subplot(2,3, 1)
     plt.title('PNEP')
     plt.ylabel('times~length ratio')
-    aaa = plt.hist(abs_deg_PNEP_lens, bins=20, label='PNEP', density=True)
-    plt.subplot(3, 2, 2)
+    plt.ylim(yl1)
+    plt.hist(abs_deg_PNEP_lens, bins=20, label='PNEP', density=True)
+    plt.subplot(2,3, 2)
     plt.title('SBART')
+    plt.ylim(yl1)
     plt.hist(abs_deg_SBART_lens, bins=20, label='SBART', density=True)
 
     # using times
     abs_deg_PNEP_times = np.array(summarized_times) / np.array(original_times)
     abs_deg_SBART_times = np.array(summarized_times2) / np.array(original_times)
-    plt.subplot(3, 2, 3)
+    plt.subplot(2,3, 4)
+    plt.ylim(yl2)
     plt.ylabel('times~names freq ratio')
     plt.hist(abs_deg_PNEP_times, bins=20, label='PNEP', density=True)
-    plt.subplot(3, 2, 4)
+    plt.subplot(2,3, 5)
 
+    plt.ylim(yl2)
     plt.hist(abs_deg_SBART_times, bins=20, label='SBART', density=True)
     # plt.savefig('fig.png')
 
     # fg = plt.figure()
-    plt.subplot(3, 2, 5)
-    plt.xlabel('length')
+    plt.subplot(2,3,3)
     abs_deg_SAMSum_lens = np.array(summarized_SAMSum_lens) / np.array(original_lens)
+    plt.ylim(yl1)
     plt.hist(abs_deg_SAMSum_lens, bins=20, label='SAMSum', density=True)
 
-    plt.subplot(3, 2, 6)
-    plt.xlabel('names freq')
+    plt.subplot(2,3,6)
+    plt.ylim(yl2)
     abs_deg_SAMSum_times = np.array(summarized_SAMSum_times) / np.array(original_times)
     plt.hist(abs_deg_SAMSum_times, bins=20, label='SAMSum', density=True)
     plt.savefig('fig.png')
